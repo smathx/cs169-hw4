@@ -32,7 +32,7 @@ module NavigationHelpers
 
     when /^the Similar Movies page for "([^"]+)"$/
       movie = Movie.find_by_title($1)
-      movie_similar(movie.id)
+      similar_movie_path(movie.id)
 
     else
       begin
