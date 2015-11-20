@@ -67,7 +67,7 @@ class MoviesController < ApplicationController
     @director = movie.director
     
     if @director.blank?
-      flash[:notice] = "No director given for '#{movie.title}'."
+      flash[:notice] = "'#{movie.title}' has no director info"
       redirect_to movies_path and return
     else
       @movies = Movie.where(director: @director)
