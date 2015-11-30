@@ -1,14 +1,14 @@
 {
   "Cucumber Features": {
     "coverage": {
-      "/home/ubuntu/workspace/hw4/app/models/movie.rb": [
+      "/home/ubuntu/workspace/hw4-bdd-tdd-cycle/app/models/movie.rb": [
         1,
         1,
         1,
         null,
         null
       ],
-      "/home/ubuntu/workspace/hw4/app/controllers/movies_controller.rb": [
+      "/home/ubuntu/workspace/hw4-bdd-tdd-cycle/app/controllers/movies_controller.rb": [
         1,
         null,
         1,
@@ -61,6 +61,13 @@
         1,
         1,
         1,
+        null,
+        null,
+        1,
+        null,
+        1,
+        1,
+        1,
         1,
         1,
         null,
@@ -86,16 +93,16 @@
         null,
         null
       ],
-      "/home/ubuntu/workspace/hw4/app/controllers/application_controller.rb": [
+      "/home/ubuntu/workspace/hw4-bdd-tdd-cycle/app/controllers/application_controller.rb": [
         1,
         1,
         null
       ],
-      "/home/ubuntu/workspace/hw4/app/helpers/application_helper.rb": [
+      "/home/ubuntu/workspace/hw4-bdd-tdd-cycle/app/helpers/application_helper.rb": [
         1,
         null
       ],
-      "/home/ubuntu/workspace/hw4/app/helpers/movies_helper.rb": [
+      "/home/ubuntu/workspace/hw4-bdd-tdd-cycle/app/helpers/movies_helper.rb": [
         1,
         null,
         1,
@@ -104,6 +111,123 @@
         null
       ]
     },
-    "timestamp": 1448037805
+    "timestamp": 1448832371
+  },
+  "RSpec": {
+    "coverage": {
+      "/home/ubuntu/workspace/hw4-bdd-tdd-cycle/app/helpers/application_helper.rb": [
+        1,
+        null
+      ],
+      "/home/ubuntu/workspace/hw4-bdd-tdd-cycle/app/helpers/movies_helper.rb": [
+        1,
+        null,
+        1,
+        0,
+        null,
+        null
+      ],
+      "/home/ubuntu/workspace/hw4-bdd-tdd-cycle/app/controllers/movies_controller.rb": [
+        1,
+        null,
+        1,
+        1,
+        null,
+        null,
+        1,
+        0,
+        0,
+        null,
+        null,
+        null,
+        1,
+        0,
+        0,
+        null,
+        0,
+        null,
+        0,
+        null,
+        0,
+        0,
+        null,
+        0,
+        0,
+        null,
+        null,
+        0,
+        0,
+        0,
+        0,
+        null,
+        0,
+        null,
+        null,
+        1,
+        null,
+        null,
+        null,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        null,
+        null,
+        1,
+        0,
+        null,
+        null,
+        1,
+        null,
+        null,
+        null,
+        null,
+        1,
+        null,
+        null,
+        null,
+        1,
+        1,
+        1,
+        null,
+        null,
+        1,
+        0,
+        0,
+        0,
+        0,
+        null,
+        null,
+        1,
+        0,
+        0,
+        0,
+        null,
+        0,
+        0,
+        0,
+        null,
+        0,
+        null,
+        null,
+        null
+      ],
+      "/home/ubuntu/workspace/hw4-bdd-tdd-cycle/app/controllers/application_controller.rb": [
+        1,
+        1,
+        null
+      ],
+      "/home/ubuntu/workspace/hw4-bdd-tdd-cycle/app/models/movie.rb": [
+        1,
+        1,
+        0,
+        null,
+        null
+      ]
+    },
+    "timestamp": 1448838147
   }
 }
