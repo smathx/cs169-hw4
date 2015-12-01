@@ -73,6 +73,20 @@ describe MoviesController do
     it 'should generate route for similar movies' do
       expect(:get => similar_movie_path(123)).to route_to(:controller => "movies", :action => "similar", :id => "123")
     end
+    
+    it "should fail if no director" do
+      @fake_movie = double('Movie', :id => "123", :title => "Some Movie", :director => nil)
+      allow(Movie).to receive(:find).with("123").and_return(@fake_movie)
+      get :similar, :id => "123"
+      expect(response).to redirect_to(movies_path)
+    end
+    
+    it "should select movies with the same director" do
+      @fake_movie = double('Movie', :id => "123", :title => "Some Movie", :director => "Who Knows")
+      allow(Movie).to receive(:find).with("123").and_return(@fake_movie)
+      expect(Movie).to receive(:where).with(:director => "Who Knows")
+      get :similar, :id => "123"
+    end
   end
 
 end

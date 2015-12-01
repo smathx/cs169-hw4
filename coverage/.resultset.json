@@ -4,7 +4,7 @@
       "/home/ubuntu/workspace/hw4-bdd-tdd-cycle/app/models/movie.rb": [
         1,
         1,
-        1,
+        7,
         null,
         null
       ],
@@ -22,26 +22,26 @@
         null,
         null,
         1,
-        1,
-        1,
+        7,
+        7,
         null,
-        0,
+        2,
         null,
-        0,
+        2,
         null,
-        1,
-        1,
+        7,
+        7,
         null,
-        1,
-        6,
+        7,
+        18,
         null,
         null,
-        1,
-        0,
-        0,
-        0,
+        7,
+        2,
+        2,
+        2,
         null,
-        1,
+        5,
         null,
         null,
         1,
@@ -107,7 +107,7 @@
         null
       ]
     },
-    "timestamp": 1448983175
+    "timestamp": 1448988331
   },
   "RSpec": {
     "coverage": {
@@ -191,15 +191,15 @@
         null,
         null,
         1,
-        0,
-        0,
-        0,
+        2,
+        2,
+        2,
         null,
-        0,
-        0,
-        0,
+        2,
+        1,
+        1,
         null,
-        0,
+        1,
         null,
         null,
         null
@@ -217,6 +217,6 @@
         null
       ]
     },
-    "timestamp": 1448984509
+    "timestamp": 1448988371
   }
 }
